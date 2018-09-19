@@ -1,0 +1,75 @@
+* { font-size: 14px; line-height: 1em; }
+body {
+  background-color: #f8f9fa;
+  padding: 5px;
+}
+.content {
+  background-color: #fff;
+  border: 1px solid #e5e6e7;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  margin: 25px auto;
+  padding: 15px 25px;
+  width: 500px;
+}
+.popup {
+  width: 220px;
+}
+.title {
+  flex: 1 0;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  border: 1px solid #369;
+  color: #369;
+  text-decoration: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+  width: 80px;
+}
+a:hover {
+  box-shadow: 0 0 3px rgba(0,0,0,.25);
+}
+a * {
+  pointer-events: none;
+}
+.popup img {
+  align-self: center;
+  flex: 0 1;
+  width: 48px;
+}
+.popup .name {
+  flex: 1 0;
+  display: block;
+}
+button {
+  height: 30px;
+  width: 75px;
+  outline: none;
+  margin: 10px;
+}
+button.disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+label {
+  float: left;
+  width: 200px;
+}
+input {
+  padding: 2px 5px;
+}
+.row {
+  padding: 5px 10px;
+  width: 100%;
+}
+.right {
+  text-align: right;
+}
