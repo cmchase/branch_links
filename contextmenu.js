@@ -2,7 +2,7 @@ const branchLinksMenu = chrome.contextMenus.create(
   {
     id: "branchLinksMenu",
     title: "BitBucket Branch Links",
-    documentUrlPatterns: ["*://sf-source.citrite.net/*"]
+    documentUrlPatterns: ["*://code.citrite.net/*"]
   }
 );
 chrome.contextMenus.create(
